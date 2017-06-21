@@ -4,4 +4,4 @@
 
 **企业在线学习平台**是一款专为虹软中国打造的视频学习网站，通过精心的设计与技术实现，带来前所未有的视频短课学习平台。
 
-![哈哈](https://b-ssl.duitang.com/uploads/item/201510/03/20151003162910_hTNmu.gif)
+![哈哈](https://b-ssl.duitang.com/uploads/item/201606/11/20160611104913_SmFhU.gif)
