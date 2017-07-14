@@ -1,0 +1,13 @@
+﻿<?xml version="1.0"?>
+<!-- 
+  Visual Studio global web project settings.
+-->
+<VisualWebDeveloper>
+
+  <comReferences>
+    <reference Name="interop.vbide" ID="{0002E157-0000-0000-C000-000000000046}\5.3\0"/>
+    <reference Name="interop.office" ID="{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}\99.1\0"/>
+    <reference Name="interop.microsoft.office.interop.word" ID="{00020905-0000-0000-C000-000000000046}\8.6\0"/>
+    <reference Name="interop.microsoft.office.interop.powerpoint" ID="{91493440-5A91-11CF-8700-00AA0060263B}\2.11\0"/>
+  </comReferences>
+</VisualWebDeveloper>

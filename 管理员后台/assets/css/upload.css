@@ -1,0 +1,30 @@
+﻿.upload
+{
+	width: 600px;
+	height: 140px;
+    border: solid 1px #ededed;
+    margin: 10px 0px;
+    padding: 10px 25px;
+}
+.upload H3
+{
+	margin:0;
+	padding-bottom:5px;
+	font-size:14px;
+}        
+.upload IFRAME
+{
+	text-align:center;
+	vertical-align:middle;
+	border-style:none;
+	margin:0px;
+	width:100%;
+	height:30px;
+}
+#status, .commands{ height:25px; line-height:25px; }
+.upload .commands{ float:right; }
+.hidden { display:none; }        
+#status { float:left; }
+#status.error{ color:Red;}
+#status.info{ color:#333;}
+#status.success{ color:green;}

@@ -1,0 +1,149 @@
+
+.clearfix { 
+
+  *zoom: 1; 
+
+} 
+
+.c-tab {
+    font-size: 14px;
+    height: 58px;
+    line-height: 58px;
+    margin-top: 10px;
+    border-bottom: 1px solid #d0d6d9;
+}
+.l {
+    float: left;
+}
+
+
+.tool-left  {
+    color: #f01400;
+    border-bottom: 2px solid #f01400;
+    padding-left: 5%;
+}
+.sort-item {
+    margin-right: 53px;
+    display: inline-block;
+    color: #787d82;
+    
+}
+
+
+
+ p{
+    margin: 0;
+    padding: 0;
+}
+
+
+         ul.timeline li {
+            position: relative;
+            margin-bottom: 20px;
+        }
+        ul.timeline li .time {
+          position: absolute;
+            width: 90px;
+            text-align: right;
+            left: 0;
+            top: 10px;
+            color: #999;
+        }
+      ul.timeline li .version {
+            position: absolute;
+            width: 290px;
+            text-align: right;
+            left: -150px;
+            top: 30px;
+            font-size: 40px;
+            line-height: 50px;
+            color: #787d82;
+            overflow: hidden;
+        }
+     ul.timeline li .number {
+            position: absolute;
+          background: url("../img/light.png") no-repeat scroll 0 0 transparent;
+           width: 56px;
+           height: 56px;
+            left: 125px;
+          line-height: 56px;
+           text-align: center;
+            color: #fff;
+            font-size: 18px;
+        }
+        ul.timeline li.alt .number {
+        	
+            background-image: url("../img/though.png");
+        }
+        @media screen and (max-width:768px)
+        {
+         ul.timeline {
+            list-style-type: none;
+            
+             margin: 50px 0;
+             padding: 0;
+         }
+      	
+        ul.timeline li .content {
+        	
+            margin-left: 170px;
+        }
+        }
+        @media screen and (max-width:992px)
+        {
+        	 ul.timeline {
+            list-style-type: none;
+            
+             margin: 50px 0;
+             padding: 0;
+         }
+      
+        ul.timeline li .content {
+        	
+            margin-left: 0px;
+        }
+        }
+        @media screen and (min-width:992px)
+        {
+        	 ul.timeline {
+            list-style-type: none;
+            background: url("../img/line.png") repeat-y scroll 148px 0 transparent;
+             margin: 60px 0;
+             padding: 0;
+         }
+      
+        ul.timeline li .content {
+        	
+            margin-left: 170px;
+        }
+        }
+        ul.timeline li .content pre {
+           
+            padding: 10px;
+            color: #F6F6F6;
+            width: 100%;
+            font-size: 12px;
+            line-height: 25px;
+            overflow: hidden;
+        }
+        ul.timeline li.alt .content pre {
+            background-color: #43B1F1;
+        }
+        
+        .kc{
+        	position: absolute;
+        	max-height: 150px;
+        	width: 45%;
+        	height: 60%;
+        	
+        	float:left;
+        	right:50%;
+        	top:20%;
+        	
+        }
+        
+        .txt{
+        	position: absolute;
+        	right:20%;
+       		top:10%;       		
+        }
